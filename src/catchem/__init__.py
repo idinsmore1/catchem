@@ -62,7 +62,7 @@ def get_pokemon_data(pokemon: str) -> str:
                 color_bar = rgb_text(' Bad ', 'red')
             elif stat_value < 450:
                 color_bar = rgb_text(' Mid ', 'yellow')
-            elif stat_value < 525:
+            elif stat_value < 500:
                 color_bar = rgb_text(' Good ', 'green')
             elif stat_value < 600:
                 color_bar = rgb_text(' Great ', 'grass')
