@@ -13,6 +13,7 @@ dependencies = [
 
 [project.scripts]
 catchem = "catchem:catchem"
+catchem-how = "catchem:catchem_how"
 
 [build-system]
 requires = ["hatchling"]
