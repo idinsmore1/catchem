@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# My Stuff
+old_init.py
+

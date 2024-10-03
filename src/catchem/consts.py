@@ -1,3 +1,11 @@
+import json
+from pathlib import Path
+
+lib_path = Path(__file__).parent
+
+with (lib_path / 'pokestats_db.json').open() as f:
+    pokestats = json.load(f)
+
 colors = {
     'red': [239, 134, 54],
     'yellow': [249, 222, 110],
